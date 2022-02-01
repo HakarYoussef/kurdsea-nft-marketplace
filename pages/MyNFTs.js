@@ -9,9 +9,10 @@ import TabPanel from '@material-ui/lab/TabPanel';
 import Creations from '../components/Creations';
 import Purchased from '../components/Purchased';
 import { TabContainer, TabPanelWrapper } from '../styles/MyNFTs.style';
+import { useState } from 'react';
 
 export default function MyNFTs() {
-  const [value, setValue] = React.useState('1');
+  const [value, setValue] = useState('1');
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { useState } from 'react/cjs/react.development';
 import Web3 from 'web3';
 import { useEffect } from 'react';
 import detectEthereumProvider from '@metamask/detect-provider';
@@ -14,6 +13,7 @@ import TabList from '@material-ui/lab/TabList';
 import TabPanel from '@material-ui/lab/TabPanel';
 import { TabContainer, TabPanelWrapper } from '../styles/MyNFTs.style';
 import { makeStyles } from '@material-ui/core/styles';
+import { useState } from 'react';
 
 import {
   ExploreContainer,

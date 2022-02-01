@@ -1,4 +1,3 @@
-import { useState } from 'react/cjs/react.development';
 import HeadSection from '../components/HeadSection';
 import Web3 from 'web3';
 import { useEffect } from 'react';
@@ -7,6 +6,7 @@ import { useWeb3React } from '@web3-react/core';
 import { InjectedConnector } from '@web3-react/injected-connector';
 import axios from 'axios';
 import CardItems from '../components/CardItems';
+import { useState } from 'react';
 
 import Link from 'next/link';
 import {

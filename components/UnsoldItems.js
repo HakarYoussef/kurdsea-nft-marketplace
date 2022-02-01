@@ -1,4 +1,3 @@
-import { useState } from 'react/cjs/react.development';
 import HeadSection from '../components/HeadSection';
 import Web3 from 'web3';
 import { useEffect } from 'react';
@@ -9,6 +8,7 @@ import axios from 'axios';
 import CardItems from './CardItems';
 import CardItemSkeleton from '../skeletons/skeleton components/CardItemSkeleton';
 import _ from 'lodash';
+import { useState } from 'react';
 import {
   unSoldItemsContainer,
   unSoldItemsMarketWrapper,

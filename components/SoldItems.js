@@ -1,7 +1,6 @@
-import { useState } from 'react/cjs/react.development';
 import HeadSection from '../components/HeadSection';
 import Web3 from 'web3';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import detectEthereumProvider from '@metamask/detect-provider';
 import { useWeb3React } from '@web3-react/core';
 import { InjectedConnector } from '@web3-react/injected-connector';
